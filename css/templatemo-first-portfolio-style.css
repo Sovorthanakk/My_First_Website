@@ -12,6 +12,8 @@ https://templatemo.com/tm-578-first-portfolio
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
+  --lighter-gray: #f4f4f4;
+  --gray-color: #efefef;
   --primary-color:                #535da1;
   --secondary-color:              #14B789;
   --section-bg-color:             #f9f9f9;
@@ -126,12 +128,12 @@ a:hover {
 
 ::selection {
   background: var(--secondary-color);
-  color: var(--white-color);
+  color: var(--gray-color);
 }
 
 ::-moz-selection {
   background: var(--secondary-color);
-  color: var(--white-color);
+  color: var(--gray-color);
 }
 
 .section-padding {
@@ -523,7 +525,8 @@ strong {
   z-index: 22;
   top: 0;
   width: 100%;
-  min-width: 550px;
+  min-width: 100px;
+  width: 500px;
 }
 
 .hero svg {
@@ -551,9 +554,11 @@ strong {
 .profile-title {
   border-bottom: 1px solid var(--border-color);
   padding: 15px 30px;
+  background: var(--white-color);
 }
 
 .profile-small-title {
+  background: var(--white-color);
   border-right: 1px solid var(--border-color);
   color: var(--secondary-color);
   font-weight: var(--font-weight-bold);
@@ -565,9 +570,6 @@ strong {
 
 .profile-body p {
   margin-bottom: 0;
-}
-
-.profile-body p:nth-of-type(even) {
   background: var(--white-color);
 }
 
@@ -576,8 +578,10 @@ strong {
 }
 
 .about-thumb {
+  border-radius: var(--border-radius-medium);
   padding-right: 20px;
   padding-left: 20px;
+  background: var(--white-color);
 }
 
 
@@ -628,7 +632,7 @@ strong {
 -----------------------------------------*/
 .services,
 .featured {
-  background: var(--section-bg-color);
+  background: var(--gray-color);
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
 }
@@ -773,7 +777,7 @@ strong {
 }
 
 .contact-info {
-  background: var(--white-color);
+  background: var(--gray-color);
   border-top-right-radius: var(--border-radius-small);
   border-bottom-right-radius: var(--border-radius-small);
   padding: 60px 30px 30px 30px;
@@ -794,7 +798,7 @@ strong {
   CUSTOM FORM               
 -----------------------------------------*/
 .custom-form .form-control {
-  background: var(--white-color);
+  background: var(--gray-color);
   box-shadow: none;
   border: 2px solid var(--border-color);
   color: var(--p-color);
