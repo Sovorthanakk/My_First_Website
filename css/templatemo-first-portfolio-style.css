@@ -1173,6 +1173,6 @@ strong {
   }
 
   .hero-image {
-    min-width: inherit;
+    min-width: 400px;
   }
 }
